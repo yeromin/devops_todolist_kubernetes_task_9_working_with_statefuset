@@ -19,7 +19,7 @@ kubectl apply -f .infrastructure/pv.yml
 kubectl apply -f .infrastructure/pvc.yml
 
 echo "Applying todoapp config and secrets..."
-kubectl apply -f .infrastructure/confgiMap.yml
+kubectl apply -f .infrastructure/configMap.yml
 kubectl apply -f .infrastructure/secret.yml
 
 echo "Applying todoapp workload and services..."
